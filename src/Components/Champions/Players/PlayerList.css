@@ -1,0 +1,36 @@
+.player-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 5%;
+}
+
+.player-item {
+    width: 27%;
+    margin-bottom: 10px;
+    background-color: white;
+    border-radius: 3%;
+    padding: 1%;
+}
+
+.player-item img {
+    height: 50%;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .player-item img {
+        height: 50%;
+        width: 50%;
+    }
+
+    .player-item {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        background-color: white;
+        border-radius: 3%;
+        padding: 5%;
+    }
+}

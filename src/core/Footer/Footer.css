@@ -1,0 +1,26 @@
+.footer {
+    margin-top: auto;
+    width: 100%;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #333;
+    margin: 0 5px;
+    font-size: 18px;
+}
+
+@media (min-width: 768px) {
+    .footer-content {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

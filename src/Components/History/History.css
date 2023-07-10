@@ -1,0 +1,10 @@
+.history {
+    background-image: url(https://pibig.info/uploads/posts/2022-11/1669775861_8-pibig-info-p-sostarennii-fon-pinterest-11.jpg); /* Замените на свою текстуру старой бумаги */
+    background-repeat: repeat;
+    background-size: cover;
+    color: black; /* Цвет текста */
+    font-family: 'Times New Roman', serif; /* Шрифт текста */
+    font-size: 18px; /* Размер шрифта */
+    padding: 5%;
+    height: 100%;
+}
