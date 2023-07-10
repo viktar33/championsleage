@@ -7,6 +7,7 @@ import {config} from "../../environments";
 const Champions = () => {
     const [players, setPlayers] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
+    const token = localStorage.getItem('token')
 
     useEffect(() => {
         getAllPlayers();
@@ -38,9 +39,9 @@ const Champions = () => {
 
     return (
         <div>
-            <NavLink to="/addPlayer">
+            {token ? <NavLink to="/addPlayer">
                 <Button style={{margin:'1%'}} variant='outlined' color='success' >Добавить участника</Button>
-            </NavLink>
+            </NavLink> : <></>}
             <PlayerList players={players}>
             </PlayerList>
         </div>

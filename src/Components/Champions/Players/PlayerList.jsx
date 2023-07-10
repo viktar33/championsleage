@@ -4,6 +4,7 @@ import {Link} from "react-router-dom";
 import SendIcon from '@mui/icons-material/Send';
 
 const PlayerList = ({players}) => {
+    const token = localStorage.getItem('token')
     return (
         <div className="player-list">
             {players.map((player, index) => (
@@ -11,7 +12,9 @@ const PlayerList = ({players}) => {
                     <img src={player.imageSrc} alt={player.name} />
                     <p>Имя: {player.name}</p>
                     <p>Титулы: {player.championships}</p>
-                    <Button variant="contained" endIcon={<SendIcon />}  component={Link} to={`/walkOfChampions/${player.id}`}>Редактировать</Button>
+                    {token ?
+                        <Button variant="contained" endIcon={<SendIcon />}  component={Link} to={`/walkOfChampions/${player.id}`}>Редактировать</Button>
+                        : <></>}
                 </div>
             ))}
         </div>
