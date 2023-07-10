@@ -27,6 +27,7 @@ const Champions = () => {
         const data = await response.json();
         console.log(data);
         setPlayers(data);
+        console.log(data)
         setIsLoading(false)
     };
 
