@@ -14,7 +14,7 @@ const Header = () => {
 
     return (
         <header className="header">
-            <h1 className="header__title">Официальный сайт кожаного мяча</h1>
+            <h1 className="header__title">UEFA.com</h1>
             <nav className="header__nav">
                 <ul className="header__nav-list">
                     <li className="header__nav-item"><a href="/homePage" className="header__nav-link">Главная</a></li>

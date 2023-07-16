@@ -6,30 +6,34 @@
     padding: 5%;
 }
 
+.player-list h2,h3{
+    font-family: "Old English Text MT", serif;
+}
+
 .player-item {
     width: 27%;
     margin-bottom: 10px;
-    background-color: white;
+    background-color: #D1B280;
     border-radius: 3%;
     padding: 1%;
 }
 
 .player-item img {
-    height: 50%;
-    width: 50%;
+    height: 60%;
+    width: 80%;
+    border-radius: 10%;
 }
 
 @media (max-width: 768px) {
     .player-item img {
         height: 50%;
-        width: 50%;
+        max-height: 150px;
+        width: 80%;
     }
 
     .player-item {
-        width: 100%;
-        height: auto;
+        width: 90%;
         margin-bottom: 10px;
-        background-color: white;
         border-radius: 3%;
         padding: 5%;
     }

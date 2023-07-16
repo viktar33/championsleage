@@ -3,11 +3,11 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #314152;
+    background-color: #080706;
 }
 
 .header__title {
-    font-size: 24px;
+    font-size: 34px;
     color:white;
 }
 
@@ -18,6 +18,11 @@
 
 .header__nav-item {
     margin-right: 10px;
+    font-size: 25px;
+}
+
+.header__nav-item:hover {
+    color: #D1B280;
 }
 
 .header__nav-link {

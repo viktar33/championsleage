@@ -3,6 +3,7 @@ import PlayerList from "./Players/PlayerList";
 import {Button} from "@mui/material";
 import {NavLink} from "react-router-dom";
 import {config} from "../../environments";
+import Loader from "../Loader/Loader";
 
 const Champions = () => {
     const [players, setPlayers] = useState([]);
@@ -34,7 +35,7 @@ const Champions = () => {
 
 
     if (isLoading) {
-        return <div>Hello</div>
+        return <Loader/>
     }
 
     return (
