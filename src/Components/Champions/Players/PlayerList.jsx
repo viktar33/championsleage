@@ -25,7 +25,7 @@ const PlayerList = ({players}) => {
             {players.map((player, index) => (
                 <div key={index} className="player-item">
                     <img src={player.imageSrc} alt={player.name} />
-                    <h2> 💥 Legend name: {player.name} 💥</h2>
+                    <h2> 💥 Legend: {player.name} 💥</h2>
                     <h3> 🏆 Number of titles: {player.championships} 🏆 </h3>
                     {player.championships == maxTitles ?
                         <h3>🔝 The best of the best 🔝</h3>
