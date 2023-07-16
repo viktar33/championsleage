@@ -5,9 +5,9 @@ const HomePage = () => {
     return (
         <div className="home-page">
             <div className="photo-section">
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 1" className="photo" />
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 2" className="photo" />
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 2" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
             </div>
             <div className="article-section">
                 <h2 className="article-title">Встпупление</h2>
@@ -16,8 +16,8 @@ const HomePage = () => {
                 </p>
             </div>
             <div className="photo-section">
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 1" className="photo" />
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
             </div>
             <div className="article-section">
                 <h2 className="article-title">О важном</h2>
@@ -34,9 +34,9 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="photo-section">
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 1" className="photo" />
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 2" className="photo" />
-                <img src="https://cdn.discordapp.com/attachments/1126058308525117533/1126101314879889418/grace.elliott.716905_Friends_playing_football_at_the_dacha_with_eb5e11a6-adbe-4422-8740-f076db3a66de.png" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
             </div>
             <div className="article-section">
                 <h2 className="article-title">Выводы</h2>
