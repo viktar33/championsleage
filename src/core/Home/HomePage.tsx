@@ -5,9 +5,9 @@ const HomePage = () => {
     return (
         <div className="home-page">
             <div className="photo-section">
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-11-40 (2).jpg" alt="Photo 3" className="photo" />
                 <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 2" className="photo" />
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-11-41 (2).jpg" alt="Photo 3" className="photo" />
             </div>
             <div className="article-section">
                 <h2 className="article-title">Встпупление</h2>
@@ -16,8 +16,8 @@ const HomePage = () => {
                 </p>
             </div>
             <div className="photo-section">
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-11-40.jpg" alt="Photo 3" className="photo1" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-11-40 (3).jpg" alt="Photo 3" className="photo1" />
             </div>
             <div className="article-section">
                 <h2 className="article-title">О важном</h2>
@@ -34,9 +34,9 @@ const HomePage = () => {
                 </div>
             </div>
             <div className="photo-section">
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
-                <img src="https://viktar331-001-site1.btempurl.com/Images/IMG_7498.PNG" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-29-35.jpg" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-29-36.jpg" alt="Photo 3" className="photo" />
+                <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-29-36 (2).jpg" alt="Photo 3" className="photo" />
             </div>
             <div className="article-section">
                 <h2 className="article-title">Выводы</h2>

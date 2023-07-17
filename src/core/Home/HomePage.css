@@ -10,20 +10,16 @@
     margin: auto;
 }
 
-.photo-section1 {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-.photo-section2 {
-    display: flex;
-    margin-bottom: 20px;
-}
-
 .photo {
-    width: 25%;
-    height: 25%;
+    width: 28%;
+    height: 28%;
     border-radius: 30%;
+}
+
+.photo1 {
+    height: 28%;
+    width: 28%;
+    margin: 1%;
 }
 
 .article-title {

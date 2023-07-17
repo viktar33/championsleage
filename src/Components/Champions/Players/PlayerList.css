@@ -11,7 +11,7 @@
 }
 
 .player-item {
-    width: 27%;
+    width: 29%;
     margin-bottom: 10px;
     background-color: #D1B280;
     border-radius: 3%;
@@ -19,8 +19,8 @@
 }
 
 .player-item img {
-    height: 60%;
-    width: 80%;
+    width: 100%;
+    height: 50%;
     border-radius: 10%;
 }
 
@@ -28,11 +28,11 @@
     .player-item img {
         height: 50%;
         max-height: 150px;
-        width: 80%;
+        width: 100%;
     }
 
     .player-item {
-        width: 90%;
+        width: 100%;
         margin-bottom: 10px;
         border-radius: 3%;
         padding: 5%;
