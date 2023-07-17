@@ -10,7 +10,7 @@ const HomePage = () => {
                 <img src="https://viktar331-001-site1.btempurl.com/Images/photo_2023-07-17_12-11-41 (2).jpg" alt="Photo 3" className="photo" />
             </div>
             <div className="article-section">
-                <h2 className="article-title">Встпупление</h2>
+                <h2 className="article-title">Вступление</h2>
                 <p className="article-text">
                     Игра в футбол с друзьями на даче имеет огромное значение и пользу для всех участников. Это не просто развлечение или спортивная активность, но и возможность укрепить дружеские связи и провести время с близкими людьми. Вот почему игра в футбол с друзьями на даче так важна:
                 </p>
