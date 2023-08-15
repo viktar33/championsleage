@@ -1,0 +1,38 @@
+.catalog-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1%;
+    padding: 5%;
+}
+
+.catalog-item {
+    width: 29%;
+    margin-bottom: 8%;
+    border-radius: 50%;
+    padding: 1%;
+    text-align: center;
+}
+
+.catalog-item img {
+    width: 70%;
+    height: 90%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .catalog-item img {
+        height: 50%;
+        max-height: 150px;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .catalog-item {
+        width: 100%;
+        margin-bottom: 10px;
+        border-radius: 3%;
+        padding: 5%;
+    }
+}
