@@ -22,7 +22,7 @@ const LeftParagraph = () => {
                 </ul>
             </div>
             <div className='image'>
-                <img src='https://avatars.dzeninfra.ru/get-zen_doc/103153/pub_5fd28a1440dbc009fcb2eb90_5fd29b49d2a6c44c4a5f1209/scale_1200'/>
+                <img src='https://images.hdqwalls.com/download/football-ground-sun-rays-4k-ev-1920x1080.jpg'/>
             </div>
         </div>
     );

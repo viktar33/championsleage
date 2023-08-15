@@ -6,7 +6,7 @@ const RightParagraph = () => {
     return (
         <div className='rightParagraph'>
             <div className='image'>
-                <img src='https://ritual24.com.ua/wp-content/uploads/2022/02/uhod-za-mogilami-1.jpg'/>
+                <img src='https://wallpapercave.com/wp/wp1889544.jpg'/>
             </div>
             <div className='text'>
                 <p>Мы считаем, что необходимо ценить возможность играть в футбол с друзьями на даче, потому что
