@@ -1,0 +1,47 @@
+.leftParagraph {
+    margin: 5rem;
+}
+
+.leftParagraph .text {
+    width: 40%;
+    display: inline-block;
+    padding: 5%;
+}
+
+.leftParagraph .text ul {
+    list-style: none;
+}
+
+.leftParagraph .text ul li:before {
+    content: '✓ ';
+}
+
+.leftParagraph .image {
+    width: 50%;
+    display: inline-block;
+}
+
+.leftParagraph .image img {
+    width: 100%;
+    max-height: 450px;
+    border-radius: 5%;
+}
+
+@media (max-width: 768px) {
+
+    .leftParagraph {
+        margin: 1rem;
+        text-align: center;
+    }
+
+    .leftParagraph .text {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 1%;
+    }
+
+    .leftParagraph .image {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}

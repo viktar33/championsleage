@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
-    background-color: #080706;
+    background-color: #626D71;
 }
 
 .header__title {
@@ -21,8 +21,9 @@
     font-size: 25px;
 }
 
-.header__nav-item:hover {
-    color: #D1B280;
+.header__nav-item a:hover {
+    color: #B38867;
+    text-shadow: #282c34;
 }
 
 .header__nav-link {

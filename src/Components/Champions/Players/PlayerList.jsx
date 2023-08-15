@@ -2,6 +2,7 @@ import './PlayerList.css';
 import {Button} from "@mui/material";
 import {Link} from "react-router-dom";
 import SendIcon from '@mui/icons-material/Send';
+import Zoom from 'react-reveal/Zoom';
 
 const PlayerList = ({players}) => {
     const token = localStorage.getItem('token')
@@ -23,9 +24,10 @@ const PlayerList = ({players}) => {
     return (
         <div className="player-list">
             {players.map((player, index) => (
+                <Zoom left delay={index/6 * 1000}>
                 <div key={index} className="player-item">
                     <img src={player.imageSrc} alt={player.name} />
-                    <h2> 💥 Legend: {player.name} 💥</h2>
+                    <h2>Legend: {player.name}</h2>
                     <h3> 🏆 Number of titles: {player.championships} 🏆 </h3>
                     {player.championships == maxTitles ?
                         <h3>🔝 The best of the best 🔝</h3>
@@ -37,6 +39,7 @@ const PlayerList = ({players}) => {
                         <Button variant="contained" endIcon={<SendIcon />}  component={Link} to={`/walkOfChampions/${player.id}`}>Редактировать</Button>
                         : <></>}
                 </div>
+                    </Zoom>
             ))}
         </div>
     );

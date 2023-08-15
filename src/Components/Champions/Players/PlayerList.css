@@ -7,15 +7,16 @@
 }
 
 .player-list h2,h3{
-    font-family: "Old English Text MT", serif;
+    font-family: "Franklin Gothic Demi", serif;
 }
 
 .player-item {
     width: 29%;
     margin-bottom: 10px;
-    background-color: #D1B280;
+    background-color: #B38867;
     border-radius: 3%;
     padding: 1%;
+    border: 5px solid #626D71;
 }
 
 .player-item img {
