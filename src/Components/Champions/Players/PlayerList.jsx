@@ -24,7 +24,7 @@ const PlayerList = ({players}) => {
     return (
         <div className="player-list">
             {players.map((player, index) => (
-                <Zoom left delay={index/6 * 1000}>
+                <Zoom top>
                 <div key={index} className="player-item">
                     <img src={player.imageSrc} alt={player.name} />
                     <h2>Legend: {player.name}</h2>
