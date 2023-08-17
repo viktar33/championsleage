@@ -17,13 +17,13 @@ const MainImage = () => {
                 <hr style={{border:'1px solid white'}}/>
                     <div className='greet-buttons'>
                         <Zoom duration={3000}>
-                        <a href="/walkOfChampions">
-                            <Button style={{backgroundColor:'#DDBC95'}} size='large' variant='contained'>Зал славы</Button>
+                        <a style={{textDecoration:"none"}} href="/walkOfChampions">
+                            <Button style={{backgroundColor:'#DDBC95',textDecoration:"none"}} size='large' variant='contained'>Зал славы</Button>
                         </a>
                         </Zoom>
                         <Zoom >
-                            <a href="/history">
-                        <Button style={{backgroundColor:'#B38867'}} size='large' variant='contained'>История турнира</Button>
+                            <a style={{textDecoration:"none"}} href="/history">
+                        <Button style={{backgroundColor:'#B38867',textDecoration:"none"}} size='large' variant='contained'>История турнира</Button>
                         </a>
                         </Zoom>
                     </div>
