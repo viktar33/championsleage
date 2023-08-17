@@ -15,13 +15,12 @@ const CatalogList = () => {
 
     return (
         <div className="catalog-list">
-            {data.map((player, index = player.id) => (
+            {data.map((item, index = item.id) => (
                 <Zoom left delay={index/6 * 1000}>
                     <div key={index} className="catalog-item">
                         <img
-                            src={player.icon}
-                            alt={player.name}/>
-                        <h4>{player.desc}</h4>
+                            src={item.icon}/>
+                        <h4>{item.desc}</h4>
                     </div>
                 </Zoom>
             ))}
