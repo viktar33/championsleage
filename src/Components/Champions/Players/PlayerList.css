@@ -16,22 +16,25 @@
     margin-bottom: 10px;
     border-radius: 10%;
     padding: 1%;
-    background-image: url("https://c4.wallpaperflare.com/wallpaper/398/874/541/champions-league-stadium-wallpaper-preview.jpg");
+    text-align: center;
+    background-image: url("https://viktar331-001-site1.btempurl.com/Images/champions-league-stadium-wallpaper-preview.jpg");
 }
 
 .player-item img {
-    width: 100%;
+    width: 50%;
     height: 50%;
     border-radius: 10%;
-    object-fit: cover;
+    object-fit: contain;
+    margin-bottom: 10%;
 }
 
 @media (max-width: 768px) {
     .player-item img {
-        height: 50%;
+        height: 60%;
         max-height: 150px;
-        width: 100%;
-        object-fit: cover;
+        width: 50%;
+        object-fit: contain;
+        margin-bottom: 10%;
     }
 
     .player-item {
