@@ -25,11 +25,7 @@ const Login = () => {
 
         const response = await fetch(
             `${config}/users/token?name=${name}&password=${password}`, {
-                method: 'GET',
-                headers: {
-                    'Access-Control-Allow-Origin': '*',
-                    'Access-Control-Request-Method': '*'
-                }
+                method: 'GET'
             })
             .then(res => res.json())
             .catch(err => toast.error("Что-то пошло не так"));
