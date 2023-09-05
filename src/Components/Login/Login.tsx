@@ -26,6 +26,7 @@ const Login = () => {
         const response = await fetch(
             `${config}/users/token?name=${name}&password=${password}`, {
                 method: 'GET',
+                mode:'no-cors',
                 headers: {
                     'Access-Control-Allow-Origin': '*',
                     'Access-Control-Request-Method': '*'
