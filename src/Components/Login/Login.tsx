@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import {toast, ToastContainer} from "react-toastify";
 import './Login.css'
-import { useNavigate } from "react-router-dom";
+import {useNavigate} from "react-router-dom";
 import {config} from "../../environments";
 
 
@@ -20,15 +20,14 @@ const Login = () => {
     };
 
     const handleSubmit = async (event: any) => {
-        const options = {
-            method: "GET",
-        };
 
         event.preventDefault();
 
         const response = await fetch(
-            `${config}/users/token?name=${name}&password=${password}`,
-            options)
+            `${config}/users/token?name=${name}&password=${password}`, {
+                method: 'GET',
+                headers: {'Access-Control-Allow-Origin': '*'}
+            })
             .then(res => res.json())
             .catch(err => toast.error("Что-то пошло не так"));
 
