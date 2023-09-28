@@ -4,7 +4,6 @@ import {config} from "../environments";
 const sleep = () => new Promise(resolve => setTimeout(resolve, 500));
 
 axios.defaults.baseURL = config;
-axios.defaults.withCredentials = true;
 
 axios.interceptors.request.use(config => {
     const token = '12312';
