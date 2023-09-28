@@ -2,8 +2,7 @@ import React, {useState} from 'react';
 import {toast, ToastContainer} from "react-toastify";
 import './Login.css'
 import {useNavigate} from "react-router-dom";
-import agent from "../../api/agent";
-
+import {config} from "../../environments";
 
 const Login = () => {
 
@@ -20,12 +19,16 @@ const Login = () => {
     };
 
     const handleSubmit = async (event: any) => {
+
         event.preventDefault();
-        const response = agent.Account.login(name,password)
+
+        const response = await fetch(
+            `${config}/users/token?name=${name}&password=${password}`, {
+                method: 'GET',
+            })
             .then(res => res.json())
             .catch(err => toast.error("Что-то пошло не так"));
 
-        // @ts-ignore
         const token = response.token;
         if (token) {
             toast.success("Вы вошли на сайт");
