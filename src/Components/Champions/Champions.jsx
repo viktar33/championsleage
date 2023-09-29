@@ -20,6 +20,7 @@ const Champions = () => {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
+                "Authorization": `Bearer ${token}`,
             },
         };
         const response = await fetch(
@@ -27,9 +28,7 @@ const Champions = () => {
             options
         );
         const data = await response.json();
-        console.log(data);
         setPlayers(data);
-        console.log(data)
         setIsLoading(false)
     };
 

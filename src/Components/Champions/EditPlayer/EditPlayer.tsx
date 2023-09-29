@@ -17,6 +17,7 @@ const EditPlayer = () => {
     const [isLoading, setIsLoading] = useState(true);
     const [isImageChanged, setIsImageChanged] = useState(false);
     const formData = new FormData();
+    const token = localStorage.getItem('token')
     const {id} = useParams();
 
     useEffect(() => {
@@ -30,6 +31,7 @@ const EditPlayer = () => {
             method: "GET",
             headers: {
                 "Content-Type": "application/json",
+                "Authorization": `Bearer ${token}`,
             },
         };
         const response = await fetch(

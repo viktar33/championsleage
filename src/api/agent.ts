@@ -4,9 +4,11 @@ import {config} from "../environments";
 const sleep = () => new Promise(resolve => setTimeout(resolve, 500));
 
 axios.defaults.baseURL = config;
+axios.defaults.withCredentials = true;
 
 axios.interceptors.request.use(config => {
-    const token = '12312';
+    const token = localStorage.getItem('token');
+
     if (token)
         config.headers!.Authorization = `Bearer ${token}`
     return config;
@@ -24,7 +26,7 @@ const requests = {
 }
 
 const Account = {
-    login: (login:string,password:string) => requests.get(`/users/token?name=${login}&password=${password}`),
+    login: (login: string, password: string) => requests.get(`/users/token?name=${login}&password=${password}`),
 }
 
 const agent = {
