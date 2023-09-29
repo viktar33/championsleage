@@ -23,7 +23,7 @@ const Login = () => {
         event.preventDefault();
 
         const response = await fetch(
-            `${config}/users/token?name=${name}&password=${password}`, {
+            `${config}/users/token`, {
                 method: 'GET',
             })
             .then(res => res.json())
